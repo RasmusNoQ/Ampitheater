@@ -58,3 +58,14 @@
 .section-right{
     margin-left: 30px;
 }
+
+@media screen and (max-width:900px) {
+    .movie-section{
+        flex-direction: column-reverse;
+
+
+        .section-right{
+            margin:0 auto;
+        }
+    }    
+}
